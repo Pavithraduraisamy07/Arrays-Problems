@@ -1,0 +1,14 @@
+import java.util.Arrays;
+public class day1ofarr{
+    public static void main(String[]arr){
+
+        int[]s={10,20,30,40,50};
+int largest=s[0];
+        for(int i=0;i<s.length;i++){
+            if(s[i]>largest){
+                largest=s[i];
+            }
+        }
+        System.out.println(largest); 
+}
+    }
